@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+
+	<style>
+		table { border-collapse: collapse; }
+	
+		td, th { border: 1px solid black; padding: 15px; }
+	</style>
+
+</head>
+<body>
+
+<p>Scalanie komórek pomiędzy kolumnami: colspan<br>
+Scalanie komórek pomiędzy wierszami: rowspan</p><br>
+<hr>
+
+<table>
+
+	<tr>
+		<th colspan="3">Król</th>
+		<th colspan="3">Data urodzenia</th>
+	</tr>
+	
+	<tr>
+		<td colspan="2">Imię</td>
+		<td>Nazwisko</td>
+		<td>Dzień</td>
+		<td>Miesiąc</td>
+		<td>Rok</td>
+	</tr>
+	
+	<tr>
+		<td>Jan</td>
+		<td>III</td>
+		<td>Sobieski</td>
+		<td>17</td>
+		<td>sierpnia</td>
+		<td>1629</td>
+	</tr>
+
+</table>
+
+<br>
+
+<table>
+
+	<tr>
+		<th>Osoba</th>
+		<td>Mieszko I</td>
+	</tr>
+
+	<tr>
+		<th rowspan="2">Nr tel.</th>
+		<td>123-456-789</td>
+	</tr>
+	
+	<tr>
+		<td>123-456-987</td>
+	</tr>
+
+</table>
+
+</body>
+</html>
