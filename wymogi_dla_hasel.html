@@ -3,31 +3,72 @@
 <head>
 
 	<meta charset="UTF-8"/>
-
+	<style>
+        body {
+            font-family: Lucida Console;
+            margin-left: 50px;
+        }
+		.submit {
+            border: none;
+            background: url(obrazek.jpg) no-repeat center center;
+            background-size: cover;
+			width: 45px;
+			height: 45px;
+        }
+    </style>
+	
 </head>
 <body>
 <h2>Wymagania dotyczące złożoności hasła</h2>
 	<form action="wymogi_dla_hasel.html">
     <form action="#" method="post">
-        <ul>
+        <ul style="list-style-image: url(obrazek.jpg)">
             <li>
-                <p>Opis pierwszego elementu</p>
-                <input type="radio" id="radio1" name="radio_group"><label for="radio1">Opcja 1</label>
-                <input type="radio" id="radio2" name="radio_group"><label for="radio2">Opcja 2</label>
-                <input type="radio" id="radio3" name="radio_group"><label for="radio3">Opcja 3</label>
+                Ile znaków ma mieć hasło: 
+                <input type="radio" id="6" name="ilosc" value="6"><label for="6">6</label>
+                <input type="radio" id="7" name="ilosc" value="7"><label for="7">7</label>
+                <input type="radio" id="8" name="ilosc" value="8"><label for="8">8</label>
+                <input type="radio" id="9" name="ilosc" value="9"><label for="9">9</label>
+                <input type="radio" id="10" name="ilosc" value="10"><label for="10">10</label>
+                <input type="radio" id="11" name="ilosc" value="11"><label for="11">11</label>
+                <input type="radio" id="12" name="ilosc" value="12"><label for="12">12</label>
             </li>
             <li>
-                <p>Opis drugiego elementu</p>
-                <input type="checkbox" id="checkbox1"><label for="checkbox1">Opcja 1</label><br>
-                <input type="checkbox" id="checkbox2"><label for="checkbox2">Opcja 2</label><br>
-                <input type="checkbox" id="checkbox3"><label for="checkbox3">Opcja 3</label><br>
+                Rodzaj znaków: 
+                <input type="checkbox" id="cyfry" name="znaki" value="cyfry"><label for="cyfry">cyfry</label>
+                <input type="checkbox" id="male" name="znaki" value="male"><label for="male">małe litery</label>
+                <input type="checkbox" id="wielkie" name="znaki" value="wielkie"><label for="wielkie">wielkie litery</label>
             </li>
             <li>
-                <p>Opis trzeciego elementu</p>
-                <input type="checkbox" id="checkbox4"><label for="checkbox4">Opcja 1</label><br>
-            </li>
+                Wyklucz te litery: 
+                <input type="checkbox" id="a" name="wyklucz" value="a"><label for="a">a</label>
+                <input type="checkbox" id="b" name="wyklucz" value="b"><label for="b">b</label>
+                <input type="checkbox" id="c" name="wyklucz" value="c"><label for="c">c</label>
+                <input type="checkbox" id="d" name="wyklucz" value="d"><label for="d">d</label>
+                <input type="checkbox" id="e" name="wyklucz" value="e"><label for="e">e</label>
+                <input type="checkbox" id="f" name="wyklucz" value="f"><label for="f">f</label>
+                <input type="checkbox" id="g" name="wyklucz" value="g"><label for="g">g</label>
+                <input type="checkbox" id="h" name="wyklucz" value="h"><label for="h">h</label>
+                <input type="checkbox" id="i" name="wyklucz" value="i"><label for="i">i</label>
+                <input type="checkbox" id="j" name="wyklucz" value="j"><label for="j">j</label>
+                <input type="checkbox" id="k" name="wyklucz" value="k"><label for="k">k</label>
+                <input type="checkbox" id="l" name="wyklucz" value="l"><label for="l">l</label>
+                <input type="checkbox" id="m" name="wyklucz" value="m"><label for="m">m</label>
+                <input type="checkbox" id="n" name="wyklucz" value="n"><label for="n">n</label>
+                <input type="checkbox" id="o" name="wyklucz" value="o"><label for="o">o</label>
+                <input type="checkbox" id="p" name="wyklucz" value="p"><label for="p">p</label>
+                <input type="checkbox" id="q" name="wyklucz" value="q"><label for="q">q</label>
+                <input type="checkbox" id="r" name="wyklucz" value="r"><label for="r">r</label>
+                <input type="checkbox" id="s" name="wyklucz" value="s"><label for="s">s</label>
+                <input type="checkbox" id="t" name="wyklucz" value="t"><label for="t">t</label>
+                <input type="checkbox" id="u" name="wyklucz" value="u"><label for="u">u</label>
+                <input type="checkbox" id="v" name="wyklucz" value="v"><label for="v">v</label>
+                <input type="checkbox" id="w" name="wyklucz" value="w"><label for="w">w</label>
+                <input type="checkbox" id="x" name="wyklucz" value="x"><label for="x">x</label>
+                <input type="checkbox" id="y" name="wyklucz" value="y"><label for="y">y</label>
+                <input type="checkbox" id="z" name="wyklucz" value="z"><label for="z">z</label>
         </ul>
-        <input type="submit" value="OK" class="submit-button">
+		<input type="submit" value="OK" class="submit">
 
 </form>
 </body>
