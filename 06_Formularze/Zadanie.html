@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8"/>
+	<style>
+		td {
+		border-left: 3px solid blueviolet; padding-top: 10px; padding-bottom: 10px; padding-right: 20px; padding-left: 20px;"
+		}
+	</style>
+</head>
+<body>
+<form action="Odesłanie.html">
+		<table style="border-collapse: collapse">
+			<tr></tr>
+				<td>
+					<label for="Marka">Marka:<span style="color: red">*</span></label><br/>
+					<input id="Marka" name="Marka" required type="text"><br/>
+				</td>
+				<td rowspan="2">
+					<label for="nadowozie">Typ nadwozia:<span style="color: red">*</span> </label><br/>
+					<select name="car" id="car" required size="5" multiple>
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="alfa_romeo">Alfa Romeo</option>
+					<option value="bmw">BMW</option>
+					<option value="fiat" selected>Fiat</option>
+					<option value="audi" disabled>Audi</option>
+					<option value="mercedes">Mercedes</option>
+					</select>
+				</td>
+				<td>				
+				</td>
+				<td>				
+				</td>
+				<td>				
+				</td>		
+			<tr></tr>
+			<tr></tr>
+				<td>
+					<label for="Model">Model:</label><br/>
+					<input id="Model" name="Model" type="text"><br/>				
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>				
+			<tr></tr>
+		</table>
+</form>
+</body>
+</html>
