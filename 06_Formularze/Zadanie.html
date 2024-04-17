@@ -8,7 +8,7 @@
 		border-left: 3px solid blueviolet; padding-top: 10px; padding-bottom: 10px; padding-right: 20px; padding-left: 20px;"
 		}
 		table {
-		border collapse: collapse;
+		border collapse;
 		width: 100%;
 		}
 	</style>
@@ -18,11 +18,11 @@
 		<table>
 			<tr>
 				<td>
-					<label for="Marka">Marka:<span style="color: red">*</span></label>
+					<label for="Marka">Marka:<span style="color: red">*</span></label><br/>
 					<input id="Marka" name="Marka" required type="text">
 				</td>
 				<td rowspan="2">
-					<label for="nadowozie">Typ nadwozia:<span style="color: red">*</span> </label>
+					<label for="nadowozie">Typ nadwozia:<span style="color: red">*</span> </label><br/>
 					<select name="nadwozie" id="nadwozie" required size="5" multiple>
 					<option value="coupé">coupé</option>
 					<option value="hatchback">hatchback</option>
@@ -32,11 +32,11 @@
 					</select>
 				</td>
 				<td>
-					Miesiąc i rok produkcji:
+					Miesiąc i rok produkcji:<br/>
 					<input type="month" name="miesiac_i_rok">				
 				</td>
 				<td>
-					<label for="przebieg">Przebieg:</label><br/>
+					<label for="przebieg">Przebieg:</label>
 					<input id="przebieg" name="vol" min="25000" max="250000" step="25000" oninput="this.nextElementSibling.value = this.value" value="25000" type="range">
 					<output>25000</output>
 				</td>
@@ -46,11 +46,11 @@
 			</tr>
 			<tr>
 				<td>
-					<label for="Model">Model:</label>
+					<label for="Model">Model:</label><br/>
 					<input id="Model" name="Model" type="text">			
 				</td>
 				<td>
-					<label for="paliwo">Rodzaj paliwa:</label>
+					<label for="paliwo">Rodzaj paliwa:</label><br/>
 					<select name="paliwo" id="paliwo">
 						<option value="benzyna" selected>benzyna</option>
 						<option value="benzyna_elektryk">benzyna + elektryk</option>
