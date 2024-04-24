@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8"/>
+	<title>Tytuł strony</title>
+	<style>
+		table{
+		width: 100%; border-collapse: collapse;
+		}
+		td{
+		border: 1px dotted grey; padding-top: 10px; padding-left: 10px; padding-bottom: 10px; padding-right: 30px; text-align: center-left;
+		}
+		body{
+		font-family: Papyrus;
+		font-size: large;
+		}
+		input[type="text"] {
+        background-color: lightblue; border: 2px solid cadetblue; border-style:  font-family: Poor Richard; font-size: large; padding: 5px 10px; width: 100%
+        }
+		input[type="password"] {
+        background-color: lightblue; border: 2px solid cadetblue; border-style:  font-family: Poor Richard; font-size: large; padding: 5px 10px; width: 100%
+        }
+		input[type="submit"] {
+        background-color: lightblue; border: 2px solid cadetblue; border-style:  font-family: Poor Richard; font-size: large; padding: 10px;
+        }
+		
+	</style>
+
+</head>
+<body>
+<form action="Odesłanie.html">
+	<table>
+	<tr>
+		<td style="width: 25%">Adres e-mail</td>
+		<td style="width: 75%">
+			<label for="email"></label>
+			<input id="email" name="email" placeholder="adres@email.com" type="text">
+		</td>
+	</tr>
+	<tr>
+		<td>Hasło</td>
+		<td>
+			<label for="hasło"></label>
+			<input id="hasło" name="hasło" placeholder="minimum 8 znaków" type="password">
+		</td>
+	</tr>	
+	<tr>
+		<td>Rola:</td>
+		<td>
+			<input checked id="kandydat" name="rola" type="radio" value="kandydat">
+			<label for="kandydat">kandydat</label>
+			<input id="aplikant" name="rola" type="radio" value="aplikant">
+			<label for="aplikant">aplikant</label>
+			<input id="kursant" name="fav_language" type="radio" value="kursant">
+			<label for="kursant">kursant</label>
+			<input id="absolwent" name="fav_language" type="radio" value="absolwent">
+			<label for="absolwent">absolwent</label>
+		</td>
+	</tr>	
+	<tr>
+		<td>Grupa</td>
+		<td>
+			<input id="wiosenna" name="grupa" type="checkbox" value="wiosenna">
+			<label for="wiosenna">wiosenna</label>
+			<input id="letnia" name="grupa" type="checkbox" value="letnia">
+			<label for="letnia">letnia</label>
+			<input id="jesienna" name="grupa" type="checkbox" value="jesienna">
+			<label for="jesienna">jesienna</label>
+			<input id="zimowa" name="grupa" type="checkbox" value="zimowa">
+			<label for="zimowa">jesienna</label>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><input type="submit" value="Wyślij"></td>
+	</tr>
+	
+	</table>
+</form>
+</body>
+</html>
