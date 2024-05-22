@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8"/>
+	<title>text </title>
+	<style>
+		body{
+		background-color: papayawhip; font-family: Arial; font-size: 1rem; 
+		}
+		table{
+		width: 400px; border-collapse: collapse;
+		}
+		td{
+		border: 1px solid goldenrod; padding: 10px; text-align: center;
+		}
+	
+	</style>
+</head>
+<body>
+<form action="Odesłanie.html">
+	<table>
+		<tr>
+			<td>
+				<label for="pi"></label>
+				<input id="pi" name="pi" placeholder="pierwsze imię" type="text">
+			</td>
+			<td>
+				<label for="di"></label>
+				<input id="di" name="di" placeholder="drugie imię" type="text">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input min="-10" 
+				max="0" 
+				name="wspolczynnik"
+				oninput="getElementById('wsp').value = this.value"
+						step="0.1"
+						type="range"
+						value="-10">
+			</td>	
+			<td>
+				<output id="wsp">-10</output>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<textarea id="message" name="message" rows="5" cols="48" style="background-color: sandybrown; border-color: saddlebrown; border-radius: 2px"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="search" name="szukaj" placeholder="szukaj" id="szukaj">
+			</td>
+			<td>
+				<input list="postac" placeholder="wybierz postać" id="postac1" name="postac1">
+				<datalist id="postac">
+					<option value="Jack">
+					<option value="Wendy">
+					<option value="Danny">
+				</datalist>
+			</td>
+		</tr>		
+		<tr>
+			<td>
+				<input type="alert" value="Pokaż okienko alert()"> 
+			</td>
+			<td>
+				<input type="reset" value="Resetuj">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<a href="https://poczta.zsi.kielce.pl/"><img src="https://www.loremflickr.com/250/200/supra" alt=" "></a>
+			</td>
+		</tr>
+		
+	</table>
+</form>
+</body>
+</html>
