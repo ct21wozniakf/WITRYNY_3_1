@@ -1,0 +1,26 @@
+p
+{
+
+color: blue;
+font-weight: bold;
+
+
+}
+div,ul{
+
+font-size: 20;
+color: red;
+
+}
+
+li em{
+
+    font-size: 15;
+    color: yellow;
+}
+
+.pierwsza{
+background-color: greenyellow;
+color: darkgreen;
+
+}
