@@ -80,10 +80,22 @@ p{
 }
 #yellow-shadow{
     text-shadow: 10px 10px 10px yellow;
+    
 }
+#yellow-shadow:first-letter {
+    font-size: 200px;
+    font-weight: bold;
+    color: brown;
+  }
 #green-shadow{
     text-shadow: -8px 8px green;
 }
+#green-shadow::first-line {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
 #blue-shadow{
     text-shadow: 10px -10px 3px blue;
 }
