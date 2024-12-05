@@ -70,6 +70,13 @@ p{
 #shadows{
     box-shadow: 10px 10px 10px gray;
     width: 900px;
+    background-color: beige;
+    border-style: dotted;
+    border-width: 15px;
+    border-top-color: pink;
+    border-right-color: blue;
+    border-bottom-color: chocolate;
+    border-left-color: lime;
 }
 #yellow-shadow{
     text-shadow: 10px 10px 10px yellow;
@@ -97,4 +104,19 @@ p{
     border-bottom-width: 20px;
     border-left-width: 10px;
     border-right-width: 10px;
+}
+#text{
+    background-color: lightgreen;
+    border-style:dashed;
+    border-color: darkgreen;
+    border-width: 5px 10px 15px 20px;
+}
+#others{
+    background-color: chocolate;
+    border-style:groove;
+    border-width: 15px;
+    border-top-color: pink;
+    border-right-color: blue;
+    border-bottom-color: chocolate;
+    border-left-color: lime;
 }
