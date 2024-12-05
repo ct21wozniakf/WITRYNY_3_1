@@ -1,0 +1,82 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #333;
+    color:white;
+
+}
+div{
+    width: 200px;
+    height: 200px;
+}
+div#size{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+p#p-size{
+    background-color: lightblue;
+    width: 75%;
+}
+div#border-width{
+    background-color: yellow;
+    border-style:double;
+    border-color:brown;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+div#border-width-short{
+    background-color: lightgreen;
+    border-style:dashed;
+    border-color: darkgreen;
+    border-width: 5px 10px 15px 20px;
+}
+div#all-in-one{
+    background-color: aqua;
+    border:15px dotted navy;
+}
+div#border-color{
+    background-color: beige;
+    border-style: dotted;
+    border-width: 15px;
+    border-top-color: pink;
+    border-right-color: blue;
+    border-bottom-color: chocolate;
+    border-left-color: lime;
+}
+div#border-color-short{
+    background-color: burlywood;
+border-style:groove;
+border-width: 15px;
+border-color:lightgoldenrodyellow yellow orange orangered;
+
+}
+div#border-ridge{
+    background-color: burlywood;
+border-style:ridge;
+border-width: 15px;
+border-color:red;
+
+   
+}
+div#border-radius2{
+background-color: pink;
+border:15px solid;
+border-color: red green yellow blue;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+width: 300px;
+height:150px;
+}
+div#border-radius1{
+    background-color: pink;
+    border:15px solid navy ;
+border-radius: 20px;
+}
+   
+    div#border-radius3{
+        background-color: pink;
+        border:15px solid darkgreen ;
+        border-radius: 50%;
+        }
