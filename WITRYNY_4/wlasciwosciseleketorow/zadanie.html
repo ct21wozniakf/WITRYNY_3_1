@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        p#min_width{
+            min-width: 400px;
+            width: 300px;
+            background-color: purple;
+        }
+        p#min_width2{
+            min-width: 60%;
+            width: 30%;
+            background-color: orange;
+        }
+        p#max_width{
+            max-width: 600px;
+            width: 1000px;
+            background-color: purple;
+        }
+        p#max_width2{
+            max-width: 80%;
+            width: 100%;
+            background-color: orange;
+        }
+        p#min_height{
+            min-height: 300px;
+            height: 100px;
+            background-color: purple;
+        }
+        p#min_height2{
+            min-height: 50%;
+            height: 5%;
+            background-color: orange;
+        }
+        p#max_height{
+            max-height: 100px;
+            height: 600px;
+            background-color: purple;
+        }
+        p#max_height2{
+            max-height: 40%;
+            height: 100%;
+            background-color: orange;
+        }
+        p#visible{
+            overflow: visible;
+            width: 300px;
+            height: 100px;
+            background-color: purple;
+        }
+        p#hidden{
+            overflow: hidden;
+            width: 300px;
+            height: 100px;
+            background-color: orange;
+        }
+        p#clip{
+            overflow: clip;
+            overflow-clip-margin: 100px;
+            width: 300px;
+            height: 100px;
+            background-color: purple;
+        }
+        p#scroll{
+            overflow: scroll;
+            width: 300px;
+            height: 100px;
+            background-color: orange;
+        }
+        p#auto{
+            overflow: auto;
+            width: 300px;
+            height: 100px;
+            background-color: purple;
+        }
+        p#overlay{
+            overflow: overlay;
+            width: 300px;
+            height: 100px;
+            background-color: orange;
+        }
+        p{
+            border: 5px dotted pink;
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+ 
+<h1>Min-width</h1>
+<p>
+    Jest to właściwość CSS która ustawia minimalną szerokość elementu. Zapobiega temu, aby wartość szerokości nie stała się mniejsza niż ta określona dla min-width
+</p>
+
+<p id="min_width">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolore quis quisquam rem tempora reprehenderit deleniti voluptatibus eligendi, unde ad non? Aliquid quis quam porro.
+</p>
+
+<p>W przykładzie powyżej widzimy iż szerokość ustawiona jest na 300px, ale przez to że min-width wynosi 400px, paragraf jest o szerokości 400px</p>
+
+<p id="min_width2">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolore quis quisquam rem tempora reprehenderit deleniti voluptatibus eligendi, unde ad non? Aliquid quis quam porro.
+</p>
+
+<p>W przykładzie powyżej widzimy iż szerokość ustawiona jest na 30% strony, ale przez że min-width wynosi 60%, paragraf jest o szerokości 60%. Pokazuje to również że jeśli użyjemy wartości procentowej to paragraf dostosuje się do wielkości strony, a jeśli wartość liczbową to nie będzie mniejsze niż wartość podana w min-width</p>
+
+<h1>Max-width</h1>
+
+<p>
+    Jest to właściwość CSS która ustawia maksymalną szerokość elementu. Zapobiega temu, aby wartość szerokości nie stała się większa niż ta określona dla max-width
+</p>
+
+<p id="max_width">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolore quis quisquam rem tempora reprehenderit deleniti voluptatibus eligendi, unde ad non? Aliquid quis quam porro.
+</p>
+
+<p>W przykładzie powyżej widzimy iż szerokość ustawiona jest na 1000px, ale przez to że max-width wynosi 600px, paragraf jest o szerokości 600px</p>
+
+<p id="max_width2">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolore quis quisquam rem tempora reprehenderit deleniti voluptatibus eligendi, unde ad non? Aliquid quis quam porro.
+</p>
+
+<p>W przykładzie powyżej widzimy iż szerokość ustawiona jest na 100% strony, ale przez że max-width wynosi 80%, paragraf jest o szerokości 80%. Pokazuje to również że jeśli użyjemy wartości procentowej to paragraf dostosuje się do wielkości strony, a jeśli wartość liczbową to nie będzie większe niż wartość podana w max-width</p>
+
+<h1>Min-height</h1>
+
+<p>
+    Jest to właściwość CSS która ustawia minimalną wysokość elementu. Zapobiega temu, aby wartość wysokości nie stała się mniejsza niż ta określona dla min-height
+</p>
+
+<p id="min_height">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+
+<p>W przykładzie powyżej widzimy iż wysokość ustawiona jest na 100px, ale przez to że min-height wynosi 300px, paragraf jest o wysokości 300px</p>
+
+<p id="min_height2">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+
+<p>W przykładzie powyżej widzimy iż wysokość ustawiona jest na 5% strony, ale przez że min-height wynosi 50%, paragraf jest o szerokości 50%. Pokazuje to również że jeśli użyjemy wartości procentowej to paragraf dostosuje się do wielkości strony, a jeśli wartość liczbową to nie będzie większe niż wartość podana w min-height</p>
+
+<h1>Max-height</h1>
+
+<p>
+    Jest to właściwość CSS która ustawia maksymalną wysokość elementu. Zapobiega temu, aby wartość wysokości nie stała się mniejsza niż ta określona dla max-height
+</p>
+
+<p id="max_height">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+
+<p>W przykładzie powyżej widzimy iż wysokość ustawiona jest na 600px, ale przez to że min-height wynosi 100px, paragraf jest o wysokości 100px</p>
+
+<p id="max_height2">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+
+<p>W przykładzie powyżej widzimy iż wysokość ustawiona jest na 100% strony, ale przez że max-height wynosi 40%, paragraf jest o szerokości 40%. Pokazuje to również że jeśli użyjemy wartości procentowej to paragraf dostosuje się do wielkości strony, a jeśli wartość liczbową to nie będzie większe niż wartość podana w min-height</p>
+
+<h1>Overflow</h1>
+
+<p>
+    Jest to właściwość CSS która ustawia żądane zachowanie, gdy tekst nie mieści się w polu dopełnienia elementu. Działa zarówno na wysokość jak i szerokość (overflow-x, overflow-y). Posiada on 6 różnych typów.
+</p>
+
+<h3>Visible</h3>
+
+<p id="visible">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<h3>Hidden</h3>
+
+<p id="hidden">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+
+<h3>Clip</h3>
+
+<p id="clip">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+
+<br><br><br><br><br>
+
+<h3>Scroll</h3>
+
+<p id="scroll">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+
+<h3>Auto</h3>
+
+<p id="auto">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+
+<h3>Overlay</h3>
+
+<p id="overlay">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque ipsum delectus corporis magni distinctio sapiente dignissimos nihil eligendi ratione laudantium deleniti veritatis eveniet, maiores iusto repudiandae laboriosam! Voluptates, hic laudantium dolorum illum rem fuga tempora molestias odio totam maxime soluta a. Molestias inventore voluptatum recusandae doloremque blanditiis quaerat quae quos possimus animi quibusdam labore iure in, autem tenetur totam laborum sunt ut omnis nemo ad, velit impedit ipsam excepturi illum! Consequuntur itaque, saepe nulla mollitia quibusdam cum facilis ut quis, earum voluptatum perferendis possimus at voluptas inventore quisquam odit iste, voluptatem vitae quam. Itaque iste nesciunt doloribus accusamus ex.
+</p>
+
+<p>Warto również zauważyć że w rodzajach <b>clip</b> i <b>visible</b> tekst wychodzi poza właściwość <b>overflow</b></p>
+
+</body>
+</html>
