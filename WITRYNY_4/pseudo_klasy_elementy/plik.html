@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modyfikowanie linków</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pseudoelementy i pseudoklasy</h1>
+
+    <dl> 
+        <dt>Pseudoelement</dt>
+        <dd>to słowo kluczowe dodawane do selektora, które umożliwia nadanie stylu konkretnej części wybranego elementu (elementów)</dd>
+        
+        <dt>Pseudoklasa</dt>
+        <dd>to słowo kluczowe dodawane do selektora, które określa specjalny stan wybranego elementu (elementów). Na przykład pseudoklasa może być używana do wybierania przycisku, :hover - gdy wskaźnik użytkownika znajduje się nad przyciskiem, a następnie ten wybrany przycisk będzie wystylizowany</dd>
+    </dl>
+
+    <h1>Linki</h1>
+
+    <ol>
+        <li><a id="link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:link" target="_blank">:link - nieodwiedzony link</a></li>
+        <li><a id="visited" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:visited" target="_blank">:visited - link odwiedzony</a></li>
+        <li><a id="active" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active" target="_blank">:active - naciśnięcie na link</a></li>
+        <li><a id="hover" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:hover" target="_blank">:hover - najechanie na link</a></li>
+        <li><a id="focus" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:focus" target="_blank">:focus = active+visited</a></li>
+    </ol>
+    
+    <h1>Formularz</h1>
+
+    <form action="plik.html" method="post">
+
+        <input id="text" type="text" name="text">
+        <input id="submit" type="submit" value="OK">
+
+    </form>
+
+</body>
+</html>

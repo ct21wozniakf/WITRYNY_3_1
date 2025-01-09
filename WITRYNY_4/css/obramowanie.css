@@ -13,7 +13,7 @@ div#size{
     width: 300px;
     height: 300px;
 }
-p#p-size{
+p#size{
     background-color: lightblue;
     width: 75%;
 }
@@ -52,7 +52,7 @@ border-width: 15px;
 border-color:lightgoldenrodyellow yellow orange orangered;
 
 }
-div#border-ridge{
+div#border-style-ridge{
     background-color: burlywood;
 border-style:ridge;
 border-width: 15px;
