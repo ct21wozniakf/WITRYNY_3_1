@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8"/>
+	<title>Listy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="index.html">
+
+<fieldset>
+<legend>Rejestracja</legend>
+
+<label>
+    Login
+    <input type="text" name="login" id="login"><br>
+</label>
+
+<label>
+    E-mail
+    <input type="email" name="email" id="email"><br>
+</label>
+
+<label>
+    Hasło
+    <input type="password" name="haslo" id="haslo"><br>
+</label>
+
+<label>
+    Powtórz hasło
+    <input type="password" name="haslo2" id="haslo2"><br>
+</label>
+
+<label>
+    <input type="checkbox" name="warunki" id="warunki">
+    Akceptuję warunki regulaminu
+</label>
+</fieldset>
+
+<fieldset>
+<legend>Ankieta</legend>
+
+<label>
+    Płeć<br>
+   <input type="radio" name="plec" value="m"> Mężczyzna
+ </label>
+
+ <label>
+   <input type="radio" name="plec" value="k"> Kobieta
+ </label> 
+
+<div>Miasto zamieszkania</div>
+
+<select name="miasto" id="miasto">
+
+<option value="k">Kielce</option>
+<option value="dw">Dębska Wola</option>
+<option value="z">Zachełmie</option>
+<option value="d">Dębno</option>
+<option value="j">Jeziorko</option>
+
+</select>
+
+<br>
+
+<label>
+Zdjęcie
+<input type="file" value="Wybierz plik">
+</label>
+
+<br>
+
+<label>
+
+Data urodzenia
+
+<input type="date">
+
+</label>
+
+<br>
+
+<label>
+
+Numer telefonu
+
+<input type="tel">
+
+</label>
+
+<br>
+
+<label>
+
+Ocena strony
+
+<input type="range" min="0" max="10">
+
+</label>
+
+</fieldset>
+
+<input type="reset" value="Wyczyść">
+<input type="submit" value="Prześłij formularz">
+</form>
+</body>
+</html>

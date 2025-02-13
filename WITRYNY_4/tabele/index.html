@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8"/>
+	<title>tabele</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        td#u{
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+
+<div>
+
+<h1>Stylizacja tabel</h1>
+
+<p>za pomocą znanych już właściwości</p>
+
+</div>
+
+<table>
+    <tr>
+        <th id="z">znaczenie</th>
+        <th id="w">właściwości</th>
+        <th>przykładowe wartośći</th>
+    </tr>
+    <tr class="tlo">
+        <td id="z">szerokość tabeli</td>
+        <td id="w">width</td>
+        <td>600px</td>
+    </tr>
+    <tr>
+        <td id="z">odległość między obramowaniem a zawartością komórki</td>
+        <td id="w">padding</td>
+        <td>10px</td>
+    </tr>
+    <tr class="tlo">
+        <td id="z">pisanie nagłówków wielkimi literami</td>
+        <td id="w">text-transform</td>
+        <td>uppercase</td>
+    </tr>
+    <tr>
+        <td id="z">dodatkowa modyfikacja wyglądu nagłówka</td>
+        <td id="w">letter-spacing</td>
+        <td>1px</td>
+    </tr>
+    <tr class="tlo">
+        <td id="z">określenie przykładowych obramowań</td>
+        <td id="w">border-top/bottom</td>
+        <td>5px double red</td>
+    </tr>
+    <tr>
+        <td id="z">wyrównywanie tekstu w komórkach</td>
+        <td id="w">text-align</td>
+        <td>left</td>
+    </tr>
+    <tr class="tlo">
+        <td id="z">kolorowanie wierszy</td>
+        <td id="w">background-color</td>
+        <td>pink</td>
+    </tr>
+    <tr>
+        <td id="z">zaznaczanie aktualnie wskazanego wiersza</td>
+        <td id="w">:hover</td>
+        <td></td>
+    </tr>
+</table>
+<hr>
+<p>empty-cells, border-spacing, border-collapse</p>
+<hr>
+<div>empty-cells - określa, czy wokół komórek table, które nie zawierają widocznej zawartości, pojawiają się obramowania i tła. Parametry: show, hide</div>
+
+<ul>
+    <li id="kwadrat">show</li>
+    <li id="kwadrat">hide</li>
+</ul>
+<br>
+
+<div>empty-cells: hide</div>
+
+<table style="empty-cells: hide;">
+
+    <tr>
+        <td id="u">a</td>
+        <td id="u">b</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">c</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">d</td>
+    </tr>
+
+
+</table>
+
+<div>empty-cells: show</div>
+
+<table style="empty-cells: show;">
+
+    <tr>
+        <td id="u">a</td>
+        <td id="u">b</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">c</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">d</td>
+    </tr>
+
+
+</table>
+<hr>
+
+<div>border-spacing - ustawia odległość pomiędzy granicami sąsiednich komórek w table. Np: 5px</div>
+
+<table style="border-spacing: 5px;">
+
+    <tr>
+        <td id="u">a</td>
+        <td id="u">b</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">c</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">d</td>
+    </tr>
+
+
+</table>
+<hr>
+<div>border-collapse - określa, czy komórki wewnątrz tabeli table mają wspólne czy oddzielne obramowania. Parametry: collapse, separate.    </div>
+
+<ol>
+    <li id="zero">collapse</li>
+    <li id="zero">separate</li>
+</ol>
+<br>
+
+<div>border-collapse: collapse</div>
+
+<table style="border-collapse: collapse;">
+
+    <tr>
+        <td id="u">a</td>
+        <td id="u">b</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">c</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">d</td>
+    </tr>
+
+
+</table>
+
+<div>border-collapse: separate</div>
+
+<table style="border-collapse: separate;">
+
+    <tr>
+        <td id="u">a</td>
+        <td id="u">b</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">c</td>
+    </tr>
+    <tr>
+        <td id="u"></td>
+        <td id="u">d</td>
+    </tr>
+
+
+</table>
+<hr>
+</body>
+</html>
