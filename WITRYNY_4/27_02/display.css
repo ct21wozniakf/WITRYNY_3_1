@@ -1,0 +1,41 @@
+div{
+    background-color: aqua;
+}
+p{
+    background-color: aquamarine;
+}
+li{
+    background-color: deeppink;
+}
+span{
+    background-color: blanchedalmond;
+}
+strong{
+    background-color: yellow;
+}
+em{
+    background-color: rgb(242, 142, 11);
+}
+h1, h2{
+    margin:30px, 10px;
+    padding: 10px;
+}
+.block{
+    display: block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+}
+.inline{
+    display:inline;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;// właściowść zapobiega przesuwaniu przez przeglądarkę elementów li 
+    width: 150px;
+    height: 40px;
+    margin:10px;
+    text-align: center;
+}

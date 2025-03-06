@@ -1,0 +1,27 @@
+.kontener1, .kontener2{
+    width:600px;
+    background-color: rgb(185, 241, 241);
+    margin:20px auto;
+}
+.menu1{
+    display: inline-block;
+    box-sizing: content-box;
+    background-color: lightgrey;
+    width: 76px;
+    margin-left:3px;
+    border-left:1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.menu2{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    width: 97px;
+    margin-left:3px;
+    border-left:1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
