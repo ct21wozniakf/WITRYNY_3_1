@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: white;
+}
+.cala{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    border: 1px solid blue;
+}
+.gora {
+    background-color: #3d2352;
+    color: white;
+    padding: 20px;
+}
+.ikonka{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.pedzle{
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace  ;
+}
+.napis1{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.napis2{
+    position: relative;
+    bottom: 50px;
+    left: 1400px;
+}
+h1, h2 {
+    margin: 0;
+}
+
+.zawartosc {
+    padding: 30px;
+    max-width: 1700px;
+    margin: auto;
+}
+
+h3 {
+    color: #3d2352;
+    margin-top: 20px;
+}
+
+.dol {
+    background-color: #3d2352;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace  ;
+}

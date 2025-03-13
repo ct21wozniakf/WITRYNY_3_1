@@ -1,0 +1,56 @@
+body{
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1.glowny{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div.ogolny{
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+p{
+    color: darkgray;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;   
+}
+h2.naglowkowy{
+    margin: 10px;
+}
+pre{
+    margin: 10px;
+}
+.button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    color: navy;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+.obok { 
+    display: inline-block;
+    margin: auto 0;
+    margin-right: -12px;
+}
+.jeden{
+    width: 40%;
+}
+.dwa{
+    width: 30%;
+}
+
