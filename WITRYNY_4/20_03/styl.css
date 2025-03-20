@@ -1,0 +1,97 @@
+body{
+    margin: 0 auto;
+    background-color: #fff;
+}
+.gora{
+    width: 100%;
+    background-color: #466995;
+    border-top-color: #466995;
+    border-bottom-color: #466995;
+}
+.lista1{
+    margin-left: 30px auto;
+    margin-right: 30px auto;
+    padding: 20px 0px;
+    text-align: center;
+    margin-bottom: 0;
+    word-spacing: 2px;
+    width: 100%;
+    
+}
+.lis{
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 80px;
+    display: inline;
+    color: #fff;
+
+}
+.lis:hover {
+    color: #DBE9EE;
+}
+.blok{
+    background-color: #DBE9EE;
+    text-align: center;
+    padding: 40px;
+}
+.nag{
+    color: #466995;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.par{
+    font-family: "Varela Round", sans-serif;
+    color: #333;
+    font-size: 18px;
+}
+.pytanie{
+    text-align: center;
+    margin-top: 40px;
+}
+.cztery{
+    font-family: "Oswald", sans-serif;
+    color: #466995;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dwa{
+    font-family: "Varela Round";
+    color: #333;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0 auto 20px auto;
+}
+.maly{
+    border: 1px solid #466995;
+    display: inline-block;
+    padding: 30px;
+    margin: 20px;
+}
+.trzeci{
+    font-family: "Oswald", sans-serif;
+    color: #466995;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+.maly:hover{
+    background-color: #C0D6DF;
+    color: #fff;
+}
+.dol{
+    background-color: #DBE9EE;
+    text-align: center;
+    padding: 40px;
+    color: #466995;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
