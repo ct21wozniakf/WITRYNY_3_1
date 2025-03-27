@@ -1,0 +1,40 @@
+.xd{
+    width: 40%;
+    color: blue;
+    background-color: red;
+    border: 6px dotted cyan;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+}
+h3{
+    color: pink;
+}
+li{
+    color: brown;
+}
+.stat{
+    position: static;
+}
+.rel{
+    position: relative;
+    right: 68px;
+    top: 400px;
+}
+.fix{
+    position: fixed;
+    bottom: 500px;
+    left: 600px;
+}
+.abs{
+    position: absolute;
+    top: 430px;
+    right: 691px;
+}
+.stic{
+    position: sticky;
+    left: 59px;
+    top: 31px;
+}
