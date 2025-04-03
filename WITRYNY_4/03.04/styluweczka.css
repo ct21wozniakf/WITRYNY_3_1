@@ -1,0 +1,53 @@
+body{   
+    width: 800px;
+    font-family: "Winky Sans", sans-serif; 
+    height: 1500px;
+}
+div{
+    border: 3px solid slategrey;
+    width: 800px;
+    height: 1500px;
+    background-color: lightgrey;
+}
+img.zd{
+    margin: 5px;
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+h1{
+    text-align: center;
+    border-bottom: 5px double slategrey;
+}
+span.ok{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+img.mc{
+    width: 250px;
+    height: 300px;
+    margin: 5px;
+    float: right;
+}
+p.fl{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+img.ind{
+    float: left;
+    width: 300px;
+    height: 230px;
+    margin: 5px;
+}
+img.k1{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: 5px;
+}
+img.k2{
+    float: right;
+    width: 350px;
+    height: 300px;
+    margin-right: 5px;
+}

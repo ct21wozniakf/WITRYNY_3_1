@@ -1,0 +1,31 @@
+body{
+    width: 750px;
+    font-family: arial, verdana, sans-serif;
+}
+h1{
+    color: rgb(20,20,21);
+    border-top: 2px solid grey;
+    border-bottom: 4px double grey;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    text-shadow: 1px 1px grey;
+}
+p{
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgrey;
+    float: left;
+}
+p.clear{
+    float: none;
+    clear: left;
+}
+div{
+    border: 1px solid black;
+    overflow: auto;
+    width: 100%;
+}
