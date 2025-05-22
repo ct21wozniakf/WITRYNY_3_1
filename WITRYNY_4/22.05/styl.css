@@ -1,0 +1,59 @@
+*{
+    box-sizing: content-box;
+}
+.gora{
+    background-color:#65ac74 ;
+    height: 100px;
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+}
+.srodek{
+    background-color: #e4f6e8;
+    margin: 5px;
+    width: 100%;
+}
+.dol{
+    background-color:#65ac74 ;
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    height: 100px;
+    
+}
+.glowny{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #e4f6e8;
+}
+.tg{
+    display: inline-block;
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0 15px;
+    font-size: 16px;
+}
+.tgg{
+    color: orange; 
+    margin-right: 0px    ;
+    text-align: right;
+}
+table {
+    margin-left: 20px;
+    border-collapse: collapse;
+    width: 97%;
+}
+th, td {
+    border: 1px solid green;
+    padding: 8px 12px;
+    text-align: left;
+}
+th {
+    background-color: #65ac74;
+    color: white;
+}
+span {
+    margin-left: 300px;
+}
